@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Educação Financeira Básica</title>
+		<meta name="author" content="Jonathan Sousa" />
+		<meta name="keywords" content="Financeira, Educação, finanças, dinheiro, básico, investimento, renda variável, renda fixa, ações, bolsa de valores, tesouro direto." />
+		<meta name="description" content="Conteúdo e conceitos básicos sobre finanças">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<header>
+			<img src="img/banner_site.png" alt="banner contendo o nome do site, desenhos de pessoas com dúvida sobre o que fazer com seu dinheiro diante de todas as possibilidades que o mercado financeiro proporciona."/>
+		</header>
+		<nav>
+			<a class="a-menu" href="#"> Início </a>
+			<a class="a-menu" href="#pag-01"> Por onde Começar? </a>
+			<a class="a-menu" href="#pag-02"> Conhecendo um pouco sobre investimentos </a>
+			<a class="a-menu" href="#pag-03"> Dicas de Leitura </a>
+			<a class="a-menu" href="receberdicas.html"> Receber mais Dicas?</a>
+		</nav>
+
+		<section id="dicas">
+
+			<h1>Receber mais Dicas?</h1>
+
+			<p>Gostaria de receber mais dicas sobre investimentos, basta apenas se cadastrar:</p>
+	  		<form name="">
+	  			<label for="nome">Nome:</label>
+	  			<input id="nome" type="text" name="nome" placeholder="Nome Completo" required autofocus/>
+	  			
+	  			<label for="e-mail">E-mail:</label>
+	  			<input id="e-mail" type="email" name="e-mail"placeholder="nomeusuario@email.com" required />
+
+	  			<label for="senha">Senha:</label>
+	  			<input id="senha" type="password" name="senha"  placeholder="Senha" required>
+	  			<label for="celular">Celular:</label>
+	  			<input id="celular" type="tel" name="celular" placeholder="(99)99999-9999" pattern="^\(?\d{2}\)\d{5}[-\s]\d{4}.*?$" required/>
+	  			<div id="data-hora-aulas">
+	  				<div>
+			  			<label for="data">Data:</label>
+			  			<input id="data" type="date" name="data"/>
+		  			</div>
+		  			<div>
+			  			<label for="hora">Hora:</label>
+			  			<input id="hora" type="time" name="hora"/>
+		  			</div>
+		  			<div>
+			  			<label for="aulas">Aulas:</label>
+			  			<input id="aulas" type="number" name="aulas" min="1" max="20" step="1" />
+		  			</div>
+		  		</div>
+	  			<label for="nivel">Nível:</label>
+	  			<select id="nivel" name="nivel">
+	  				<option>Selecione um nível</option>
+	  				<option value="basico">Básico</option>
+	  				<option value="intermediario">Intermediário</option>
+	  				<option value="avancado">Avançado</option>
+	  			</select>
+
+	  			<fieldset>
+	  				<legend>Gênero</legend>
+	  				<input id="m" type="radio" name="genero" value="masculino" /><label for="m">Masculino</label>
+	  				<input id="f" type="radio" name="genero" value="feminino" /><label for="f">Feminino</label>
+	  			</fieldset>
+
+	  			<fieldset>
+	  				<legend>Tipo de conteúdos</legend>
+	  				<input id="emergencia" type="checkbox" name="conteudo" value="emergencia" /><label for="emergencia">Fundo de emergência</label>
+	  				<input id="rendafixa" type="checkbox" name="conteudo" value="rendafixa" /><label for="rendafixa">Renda Fixa</label>
+	  				<input id="poupanca" type="checkbox" name="conteudo" value="poupanca" /><label for="poupanca">Poupança</label>
+	  				<input id="rendavariavel" type="checkbox" name="conteudo" value="rendavariavel" /><label for="rendavariavel">Renda Variável</label>
+	  			</fieldset>
+
+	  			<label for="msg">Mensagem:</label>
+	  			<textarea id="msg" cols="55" rows="4"></textarea>
+
+	  			<div id="botoes">
+		  			<input type="submit" name="" value="Agendar" />
+		  			<input type="reset" name="" value="Cancelar" />
+	  			</div>
+  			</form>
+  		</section>
+  		<footer>
+  			<p>Desenvolvido por <a href="https://instagram.com" target="_blank">Jonathan Sousa<a/> - 2021</p>
+  		</footer>
+
+	</body>
+</html>
